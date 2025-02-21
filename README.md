@@ -10,7 +10,8 @@ Created with ESAPI v15.5.
 
 ## How to use
 
-1. Create a csv file with the patient IDs and plan names which you want to obtain target volumes.
+1. Create a csv file with the patient IDs and plan names which you want to obtain target volumes ([target_volume_extractor_test.csv
+](https://github.com/akiaji-k/target_volume_extractor_esapi_v15_5/blob/main/target_volume_extractor_test.csv).
 
    ```
    # id, plan_name
@@ -21,7 +22,8 @@ Created with ESAPI v15.5.
 
 2. Execute the standalone executable with the csv file created in step 1 as an argument (e.g., drag and drop the csv file onto the executable).
 
-3. The extracted target volume is output as a csv file.
+3. The extracted target volume is output as a csv file ([volume_extractor_outputs.csv
+](https://github.com/akiaji-k/target_volume_extractor_esapi_v15_5/blob/main/volume_extractor_outputs.csv).
 
    ```
    # #1: ID, #2: Plan ID, #3: X_len_mm, #4: Y_len_mm, #5: Z_len_mm, #6: Volume_cc
