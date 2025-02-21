@@ -10,7 +10,8 @@ ESAPI v15.5で作成されています。
 
 ## 使用方法
 
-1. ターゲットの体積を取得したいプランの、患者IDとプラン名が記載されたcsvファイルを作成する。
+1. ターゲットの体積を取得したいプランの、患者IDとプラン名が記載されたcsvファイルを作成する ([target_volume_extractor_test.csv
+](https://github.com/akiaji-k/target_volume_extractor_esapi_v15_5/blob/main/target_volume_extractor_test.csv))。
 
    ```
    # id, plan_name
@@ -21,7 +22,8 @@ ESAPI v15.5で作成されています。
 
 2. 手順1で作成したcsvファイルを引数として、standalone executableを実行する(csvファイルを実行ファイルにドラッグアンドドロップするなど)。
 
-3. 抽出されたターゲット体積がcsvファイルとして出力されます。
+3. 抽出されたターゲット体積がcsvファイルとして出力されます([volume_extractor_outputs.csv
+](https://github.com/akiaji-k/target_volume_extractor_esapi_v15_5/blob/main/volume_extractor_outputs.csv))。
 
    ```
    # #1: ID, #2: Plan ID, #3: X_len_mm, #4: Y_len_mm, #5: Z_len_mm, #6: Volume_cc
